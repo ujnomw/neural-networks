@@ -27,33 +27,42 @@ OPTICS -  это алгоритм поиска кластеров на осно�
 - Эталонный датасет Breast Cancer
 - Эталонный датасет Wine Quality
 
-<div style="text-align: center;">
+<figure>
+<img src="images/dataset1.png" style="width:100%">
+<figcaption align = "center">
+<b>Датасет 1. Линейно разделимые множества.</b></figcaption>
+</figure>
 
-|![dataset1](images/dataset1.png)|
-|:--:|
-| *Датасет 1. Линейно разделимые множества.* |
- 
-|![dataset2](images/dataset2.png)|
-|:--:|
-| *Датасет 2. Линейно разделимые множества, расположенные близко или касающиеся друг друга.* |
- 
-|![dataset3](images/dataset3.png)|
-|:--:|
-| *Датасет 3. Линейно неразделимое множество (средняя площадь пересечения 10-20%).* |
- 
-|![dataset4](images/dataset4.png)|
-|:--:|
-| *Датасет 4. Линейно неразделимое множество (средняя площадь пересечения 50-70%).* |
- 
-|![dataset_bc](images/dataset_bc.png)|
-|:--:|
-| *Эталонный датасет Breast Cancer.* |
- 
-|![dataset_wq](images/dataset_wq.png)|
-|:--:|
-| *Эталонный датасет Wine Quality.* |
+<figure>
+<img src="images/dataset2.png" style="width:100%">
+<figcaption align = "center">
+<b>Датасет 2. Линейно разделимые множества, расположенные близко или касающиеся друг друга.</b></figcaption>
+</figure>
 
-</div>
+<figure>
+<img src="images/dataset3.png" style="width:100%">
+<figcaption align = "center">
+<b>Датасет 3. Линейно неразделимое множество (средняя площадь пересечения 10-20%).</b></figcaption>
+</figure>
+
+<figure>
+<img src="images/dataset4.png" style="width:100%">
+<figcaption align = "center">
+<b>Датасет 4. Линейно неразделимое множество (средняя площадь пересечения 50-70%).</b></figcaption>
+</figure>
+
+<figure>
+<img src="images/dataset_bc.png" style="width:100%">
+<figcaption align = "center">
+<b>Эталонный датасет Breast Cancer.</b></figcaption>
+</figure>
+
+<figure>
+<img src="images/dataset_wq.png" style="width:100%">
+<figcaption align = "center">
+<b>Эталонный датасет Wine Quality.</b></figcaption>
+</figure>
+
 
 # Метрики
 
@@ -90,29 +99,43 @@ _Гомогенность_ - это значение метрики качест
 | breast cancer | 0.464793 |     0.516809 |       0.791517 |   0.422291 |
 | wine quality  | 0.428757 |     0.428701 |       0.583537 |   0.428812 |
 
-|![dataset1](images/kmeans_euc_1.png)|
-|:--:|
-| *K-means, евклидова метрика, Датасет 1* |
 
-|![dataset2](images/kmeans_euc_2.png)|
-|:--:|
-| *K-means, евклидова метрика, Датасет 2* |
+<figure>
+<img src="images/kmeans_euc_1.png" style="width:100%">
+<figcaption align = "center">
+<b>K-means, евклидова метрика, Датасет 1</b></figcaption>
+</figure>
 
-|![dataset3](images/kmeans_euc_3.png)|
-|:--:|
-| *K-means, евклидова метрика, Датасет 3* |
+<figure>
+<img src="images/kmeans_euc_2.png" style="width:100%">
+<figcaption align = "center">
+<b>K-means, евклидова метрика, Датасет 2</b></figcaption>
+</figure>
 
-|![dataset4](images/kmeans_euc_4.png)|
-|:--:|
-| *K-means, евклидова метрика, Датасет 4* |
+<figure>
+<img src="images/kmeans_euc_3.png" style="width:100%">
+<figcaption align = "center">
+<b>K-means, евклидова метрика, Датасет 3</b></figcaption>
+</figure>
 
-|![dataset_bc](images/kmeans_euc_bc.png)|
-|:--:|
-| *K-means, евклидова метрика, Датасет Breast Cancer* |
+<figure>
+<img src="images/kmeans_euc_4.png" style="width:100%">
+<figcaption align = "center">
+<b>K-means, евклидова метрика, Датасет 4</b></figcaption>
+</figure>
 
-|![dataset_wq](images/kmeans_euc_wq.png)|
-|:--:|
-| *K-means, евклидова метрика, Датасет Wine Quality* |
+<figure>
+<img src="images/kmeans_euc_bc.png" style="width:100%">
+<figcaption align = "center">
+<b>K-means, евклидова метрика, Датасет Breast Cancer</b></figcaption>
+</figure>
+
+<figure>
+<img src="images/kmeans_euc_wq.png" style="width:100%">
+<figcaption align = "center">
+<b>K-means, евклидова метрика, Датасет Wine Quality</b></figcaption>
+</figure>
+
 
 
 
@@ -128,29 +151,41 @@ _Гомогенность_ - это значение метрики качест
 | breast cancer |  0.456708 |     0.510052 |       0.788211 |   0.413465 |
 | wine quality  |  0.431543 |     0.431385 |       0.585935 |   0.431701 |
 
-|![dataset1](images/kmeans_manh_1.png)|
-| :--: |
-| *K-means, манхеттенская метрика, Датасет 1* |
+<figure>
+<img src="images/kmeans_manh_1.png" style="width:100%">
+<figcaption align = "center">
+<b>K-means, манхеттенская метрика, Датасет 1</b></figcaption>
+</figure>
 
-|![dataset2](images/kmeans_manh_2.png)|
-| :--: |
-| *K-means, манхеттенская метрика, Датасет 2* |
+<figure>
+<img src="images/kmeans_manh_2.png" style="width:100%">
+<figcaption align = "center">
+<b>K-means, манхеттенская метрика, Датасет 2</b></figcaption>
+</figure>
 
-|![dataset3](images/kmeans_manh_3.png)|
-| :--: |
-| *K-means, манхеттенская метрика, Датасет 3* |
+<figure>
+<img src="images/kmeans_manh_3.png" style="width:100%">
+<figcaption align = "center">
+<b>K-means, манхеттенская метрика, Датасет 3</b></figcaption>
+</figure>
 
-|![dataset4](images/kmeans_manh_4.png)|
-| :--: |
-| *K-means, манхеттенская метрика, Датасет 4* |
+<figure>
+<img src="images/kmeans_manh_4.png" style="width:100%">
+<figcaption align = "center">
+<b>K-means, манхеттенская метрика, Датасет 4</b></figcaption>
+</figure>
 
-|![dataset_bc](images/kmeans_manh_bc.png)|
-| :--: |
-| *K-means, манхеттенская метрика, Датасет Breast Cancer* |
+<figure>
+<img src="images/kmeans_manh_bc.png" style="width:100%">
+<figcaption align = "center">
+<b>K-means, манхеттенская метрика, Датасет Breast Cancer</b></figcaption>
+</figure>
 
-|![dataset_wq](images/kmeans_manh_wq.png)|
-| :--: |
-| *K-means, манхеттенская метрика, Датасет Wine Quality* |
+<figure>
+<img src="images/kmeans_manh_wq.png" style="width:100%">
+<figcaption align = "center">
+<b>K-means, манхеттенская метрика, Датасет Wine Quality</b></figcaption>
+</figure>
 
 ## Алгоритм агломеративной иерархической кластеризации
 
@@ -165,29 +200,41 @@ _Гомогенность_ - это значение метрики качест
 | breast cancer |  0.319082 |     0.407601 |       0.739228 |    0.26215 |
 | wine quality  |  0.416077 |     0.416293 |       0.582122 |   0.415861 |
 
-|![dataset1](images/agglo_euc_1.png)|
-|:--:|
-| *Аггломеративная кластеризация, евклидова метрика, Датасет 1* |
+<figure>
+<img src="images/agglo_euc_1.png" style="width:100%">
+<figcaption align = "center">
+<b>Аггломеративная кластерирация, евклидова метрика, Датасет 1</b></figcaption>
+</figure>
 
-|![dataset2](images/agglo_euc_2.png)|
-|:--:|
-| *Аггломеративная кластеризация, евклидова метрика, Датасет 2* |
+<figure>
+<img src="images/agglo_euc_2.png" style="width:100%">
+<figcaption align = "center">
+<b>Аггломеративная кластерирация, евклидова метрика, Датасет 2</b></figcaption>
+</figure>
 
-|![dataset3](images/agglo_euc_3.png)|
-|:--:|
-| *Аггломеративная кластеризация, евклидова метрика, Датасет 3* |
+<figure>
+<img src="images/agglo_euc_3.png" style="width:100%">
+<figcaption align = "center">
+<b>Аггломеративная кластерирация, евклидова метрика, Датасет 3</b></figcaption>
+</figure>
 
-|![dataset4](images/agglo_euc_4.png)|
-|:--:|
-| *Аггломеративная кластеризация, евклидова метрика, Датасет 4* |
+<figure>
+<img src="images/agglo_euc_4.png" style="width:100%">
+<figcaption align = "center">
+<b>Аггломеративная кластерирация, евклидова метрика, Датасет 4</b></figcaption>
+</figure>
 
-|![dataset_bc](images/agglo_euc_bc.png)|
-|:--:|
-| *Аггломеративная кластеризация, евклидова метрика, Датасет Breast Cancer* |
+<figure>
+<img src="images/agglo_euc_bc.png" style="width:100%">
+<figcaption align = "center">
+<b>Аггломеративная кластерирация, евклидова метрика, Датасет Breast Cancer</b></figcaption>
+</figure>
 
-|![dataset_wq](images/agglo_euc_wq.png)|
-|:--:|
-| *Аггломеративная кластеризация, евклидова метрика, Датасет Wine Quality* |
+<figure>
+<img src="images/agglo_euc_wq.png" style="width:100%">
+<figcaption align = "center">
+<b>Аггломеративная кластерирация, евклидова метрика, Датасет Wine Quality</b></figcaption>
+</figure>
 
 
 
@@ -202,29 +249,42 @@ _Гомогенность_ - это значение метрики качест
 | breast cancer | 0.0880967 |     0.235139 |       0.721494 |  0.0542019 |
 | wine quality  |  0.442275 |     0.448047 |       0.589682 |    0.43665 |
 
-|![dataset1](images/agglo_manh_1.png)|
-|:--:|
-| *Аггломеративная кластеризация, манхеттенская метрика, Датасет 1* |
 
-|![dataset2](images/agglo_manh_2.png)|
-|:--:|
-| *Аггломеративная кластеризация, манхеттенская метрика, Датасет 2* |
+<figure>
+<img src="images/agglo_manh_1.png" style="width:100%">
+<figcaption align = "center">
+<b>Аггломеративная кластерирация, манхеттенская метрика, Датасет 1</b></figcaption>
+</figure>
 
-|![dataset3](images/agglo_manh_3.png)|
-|:--:|
-| *Аггломеративная кластеризация, манхеттенская метрика, Датасет 3* |
+<figure>
+<img src="images/agglo_manh_2.png" style="width:100%">
+<figcaption align = "center">
+<b>Аггломеративная кластерирация, манхеттенская метрика, Датасет 2</b></figcaption>
+</figure>
 
-|![dataset4](images/agglo_manh_4.png)|
-|:--:|
-| *Аггломеративная кластеризация, манхеттенская метрика, Датасет 4* |
+<figure>
+<img src="images/agglo_manh_3.png" style="width:100%">
+<figcaption align = "center">
+<b>Аггломеративная кластерирация, манхеттенская метрика, Датасет 3</b></figcaption>
+</figure>
 
-|![dataset_bc](images/agglo_manh_bc.png)|
-|:--:|
-| *Аггломеративная кластеризация, манхеттенская метрика, Датасет Breast Cancer* |
+<figure>
+<img src="images/agglo_manh_4.png" style="width:100%">
+<figcaption align = "center">
+<b>Аггломеративная кластерирация, манхеттенская метрика, Датасет 4</b></figcaption>
+</figure>
 
-|![dataset_wq](images/agglo_manh_wq.png)|
-|:--:|
-| *Аггломеративная кластеризация, манхеттенская метрика, Датасет Wine Quality* |
+<figure>
+<img src="images/agglo_manh_bc.png" style="width:100%">
+<figcaption align = "center">
+<b>Аггломеративная кластерирация, манхеттенская метрика, Датасет Breast Cancer</b></figcaption>
+</figure>
+
+<figure>
+<img src="images/agglo_manh_wq.png" style="width:100%">
+<figcaption align = "center">
+<b>Аггломеративная кластерирация, манхеттенская метрика, Датасет Wine Quality</b></figcaption>
+</figure>
 
 
 
@@ -241,29 +301,41 @@ _Гомогенность_ - это значение метрики качест
 | breast cancer | 0.154971 |     0.117049 |       0.493887 |   0.229242 |
 | wine quality  | 0.276606 |     0.180435 |       0.152288 |   0.592305 |
 
-|![dataset1](images/optics_euc_1.png)|
-|:--:|
-| *OPTICS, евклидова метрика, Датасет 1* |
+<figure>
+<img src="images/optics_euc_1.png" style="width:100%">
+<figcaption align = "center">
+<b>OPTICS, евклидова метрика, Датасет 1</b></figcaption>
+</figure>
 
-|![dataset2](images/optics_euc_2.png)|
-|:--:|
-| *OPTICS, евклидова метрика, Датасет 2* |
+<figure>
+<img src="images/optics_euc_2.png" style="width:100%">
+<figcaption align = "center">
+<b>OPTICS, евклидова метрика, Датасет 2</b></figcaption>
+</figure>
 
-|![dataset3](images/optics_euc_3.png)|
-|:--:|
-| *OPTICS, евклидова метрика, Датасет 3* |
+<figure>
+<img src="images/optics_euc_3.png" style="width:100%">
+<figcaption align = "center">
+<b>OPTICS, евклидова метрика, Датасет 3</b></figcaption>
+</figure>
 
-|![dataset4](images/optics_euc_4.png)|
-|:--:|
-| *OPTICS, евклидова метрика, Датасет 4* |
+<figure>
+<img src="images/optics_euc_4.png" style="width:100%">
+<figcaption align = "center">
+<b>OPTICS, евклидова метрика, Датасет 4</b></figcaption>
+</figure>
 
-|![dataset_bc](images/optics_euc_bc.png)|
-|:--:|
-| *OPTICS, евклидова метрика, Датасет Breast Cancer* |
+<figure>
+<img src="images/optics_euc_bc.png" style="width:100%">
+<figcaption align = "center">
+<b>OPTICS, евклидова метрика, Датасет Breast Cancer</b></figcaption>
+</figure>
 
-|![dataset_wq](images/optics_euc_wq.png)|
-|:--:|
-| *OPTICS, евклидова метрика, Датасет Wine* |
+<figure>
+<img src="images/optics_euc_wq.png" style="width:100%">
+<figcaption align = "center">
+<b>OPTICS, евклидова метрика, Датасет Wine Quality</b></figcaption>
+</figure>
 
 
 
@@ -280,60 +352,47 @@ _Гомогенность_ - это значение метрики качест
 | breast cancer | 0.130749 |     0.154482 |       0.659543 |   0.113337 |
 | wine quality  | 0.303906 |     0.198218 |       0.159531 |   0.651029 |
 
-|![dataset1](images/optics_manh_1.png)|
-|:--:|
-| *OPTICS, манхеттенская метрика, Датасет 1* |
 
-|![dataset2](images/optics_manh_2.png)|
-|:--:|
-| *OPTICS, манхеттенская метрика, Датасет 2* |
+<figure>
+<img src="images/optics_manh_1.png" style="width:100%">
+<figcaption align = "center">
+<b>OPTICS, манхеттенская метрика, Датасет 1</b></figcaption>
+</figure>
 
-|![dataset3](images/optics_manh_3.png)|
-|:--:|
-| *OPTICS, манхеттенская метрика, Датасет 3* |
+<figure>
+<img src="images/optics_manh_2.png" style="width:100%">
+<figcaption align = "center">
+<b>OPTICS, манхеттенская метрика, Датасет 2</b></figcaption>
+</figure>
 
-|![dataset4](images/optics_manh_4.png)|
-|:--:|
-| *OPTICS, манхеттенская метрика, Датасет 4* |
+<figure>
+<img src="images/optics_manh_3.png" style="width:100%">
+<figcaption align = "center">
+<b>OPTICS, манхеттенская метрика, Датасет 3</b></figcaption>
+</figure>
 
-|![dataset_bc](images/optics_manh_bc.png)|
-|:--:|
-| *OPTICS, манхеттенская метрика, Датасет Breast Cancer* |
+<figure>
+<img src="images/optics_manh_4.png" style="width:100%">
+<figcaption align = "center">
+<b>OPTICS, манхеттенская метрика, Датасет 4</b></figcaption>
+</figure>
 
-|![dataset_wq](images/optics_manh_wq.png)|
-|:--:|
-| *OPTICS, манхеттенская метрика, Датасет Wine* |
+<figure>
+<img src="images/optics_manh_bc.png" style="width:100%">
+<figcaption align = "center">
+<b>OPTICS, манхеттенская метрика, Датасет Breast Cancer</b></figcaption>
+</figure>
+
+<figure>
+<img src="images/optics_manh_wq.png" style="width:100%">
+<figcaption align = "center">
+<b>OPTICS, манхеттенская метрика, Датасет Wine Quality</b></figcaption>
+</figure>
 
 
 # Сравнительная таблица
-|               |                       |               |                |               | _Kmeans_            |                           |               |                |               |
-|---------------|-----------------------|---------------|----------------|---------------|---------------------|---------------------------|---------------|----------------|---------------|
-|               | **Евклидова метрика** |               |                |               |                     | **Манхеттенская метрика** |               |                |               |
-|               |              V-mesure |  Completeness | Fowlkes-Mallow |    Homogenity |                     |                  V-mesure |  Completeness | Fowlkes-Mallow |    Homogenity |
-| 1             |                 **1** |         **1** |          **1** |         **1** |                     |                     **1** |         **1** |          **1** |         **1** |
-| 2             |          **0.697264** |  **0.698022** |   **0.735169** |  **0.696509** |                     |              **0.668319** |  **0.668937** |   **0.688112** |  **0.667702** |
-| 3             |          **0.317407** |  **0.320007** |   **0.396553** |  **0.314848** |                     |              **0.338049** |  **0.339195** |   **0.415465** |   **0.33691** |
-| 4             |           **0.08401** | **0.0843068** |   **0.239744** | **0.0837153** |                     |             **0.0870521** | **0.0876989** |   **0.242695** | **0.0864148** |
-| breast cancer |          **0.464793** |  **0.516809** |   **0.791517** |  **0.422291** |                     |              **0.456708** |  **0.510052** |   **0.788211** |  **0.413465** |
-| wine quality  |          **0.428757** |  **0.428701** |   **0.583537** |  **0.428812** |                     |              **0.431543** |  **0.431385** |   **0.585935** |  **0.431701** |
-|               |                       |               |                |               | **_Agglomerative_** |                           |               |                |               |
-|               | **Евклидова метрика** |               |                |               |                     | **Манхеттенская метрика** |               |                |               |
-|               |              V-mesure |  Completeness | Fowlkes-Mallow |    Homogenity |                     |                  V-mesure |  Completeness | Fowlkes-Mallow |    Homogenity |
-| 1             |                 **1** |         **1** |          **1** |         **1** |                     |                     **1** |         **1** |          **1** |         **1** |
-| 2             |          **0.675832** |  **0.678153** |   **0.709681** |  **0.673526** |                     |              **0.661681** |  **0.673164** |   **0.673158** |  **0.650584** |
-| 3             |          **0.321083** |  **0.323531** |   **0.384739** |  **0.318672** |                     |              **0.328866** |   **0.33839** |   **0.414054** |  **0.319864** |
-| 4             |         **0.0830093** | **0.0852188** |   **0.246371** | **0.0809116** |                     |             **0.0565259** | **0.0654418** |   **0.273425** | **0.0497481** |
-| breast cancer |          **0.319082** |  **0.407601** |   **0.739228** |   **0.26215** |                     |             **0.0880967** |  **0.235139** |   **0.721494** | **0.0542019** |
-| wine quality  |          **0.416077** |  **0.416293** |   **0.582122** |  **0.415861** |                     |              **0.442275** |  **0.448047** |   **0.589682** |   **0.43665** |
-|               |                       |               |                |               | **_OPTICS_**        |                           |               |                |               |
-|               | **Евклидова метрика** |               |                |               |                     | **Манхеттенская метрика** |               |                |               |
-|               |              V-mesure |  Completeness | Fowlkes-Mallow |    Homogenity |                     |                  V-mesure |  Completeness | Fowlkes-Mallow |    Homogenity |
-| 1             |                 **1** |         **1** |          **1** |         **1** |                     |                     **1** |         **1** |          **1** |         **1** |
-| 2             |          **0.356688** |  **0.389988** |   **0.346776** |  **0.328627** |                     |              **0.358768** |  **0.389889** |   **0.356059** |  **0.332248** |
-| 3             |          **0.217932** |  **0.179928** |   **0.225498** |  **0.276288** |                     |              **0.203824** |  **0.171729** |   **0.232271** |  **0.250673** |
-| 4             |          **0.249568** |  **0.174175** |  **0.0962486** |  **0.440045** |                     |              **0.243216** |  **0.170108** |  **0.0922051** |  **0.426524** |
-| breast cancer |          **0.154971** |  **0.117049** |   **0.493887** |  **0.229242** |                     |              **0.130749** |  **0.154482** |   **0.659543** |  **0.113337** |
-| wine quality  |          **0.276606** |  **0.180435** |   **0.152288** |  **0.592305** |                     |              **0.303906** |  **0.198218** |   **0.159531** |  **0.651029** |
+![](images/table.png)
+
 
 # Выводы
 
