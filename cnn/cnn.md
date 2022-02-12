@@ -68,12 +68,12 @@ CIFAR-10 (Canadian Institute For Advanced Research) — еще один боль
 
 |![acc](images/cnn_acc.png)|
 |:--:|
-| *Точность на обучающем и валидационном множестве* |
+| *Точность на обучающем и валидационном множествах для CIFAR-10* |
 
 
 | ![loss](images/cnn_loss.png)|
 |:--:|
-| *Ошибка на обучающем и валидационном множестве* |
+| *Ошибка на обучающем и валидационном множествах для CIFAR-10* |
 
 ### Метрики для тестового множества
 
@@ -99,7 +99,7 @@ weighted avg       0.81      0.81      0.81     10000
 
 |![conf_test](images/cnn_confusion_test.png)|
 |:--:|
-| *Матрица ошибок для тестового множества* |
+| *Матрица ошибок для тестового множества CIFAR-10* |
 
 ### Метрики для обучающего множества
 
@@ -125,7 +125,7 @@ weighted avg       0.93      0.93      0.93     37500
 
 |![conf_train](images/cnn_confusion_train.png)|
 |:--:|
-| *Матрица ошибок для обучающего множества*|
+| *Матрица ошибок для обучающего множества CIFAR-10*|
 
 
 
@@ -136,7 +136,11 @@ weighted avg       0.93      0.93      0.93     37500
 
 # 4. Классификация на датасете CIFAR-10 + vehicles 2
 
-![cifar10vehicles-samples](images/cifar10_vehicles_samples.png)
+vehicles 2 - суперкласс датасета CIFAR-100, в который входят газонокосилки, ракеты, трамваи, цистерны, тракторы.
+
+|![cifar10vehicles-samples](images/cifar10_vehicles_samples.png)|
+|:--:|
+| *Примеры изображений CIFAR-10 + vehicles 2* |
 
 Дообучим текущую модель на 15 классах - CIFAR-10 и суперкласс vehicles2 CIFAR-100. Для этого изменим слои выполняющие классификацию.
 
@@ -183,12 +187,19 @@ Non-trainable params: 139,424
 _________________________________________________________________
 ```
 
+## Результаты
+
 Динамика обучения:
 
-![tl_acc](images/tl_acc.png)
-![tl_loss](images/tl_loss.png)
+|![tl_acc](images/tl_acc.png) |
+|:--:|
+| *Точность на обучающем и валидационном множествах для CIFAR-10 + vehicles2* |
 
-Тестовое множество:
+|![tl_loss](images/tl_loss.png)|
+|:--:|
+| *Ошибка на обучающем и валидационном множествах для CIFAR-10 + vehicles2* |
+
+### Метрики для тестового множества
 
 ```text
 test:
@@ -215,9 +226,11 @@ test:
 weighted avg       0.73      0.73      0.72      1500
 ```
 
-![tl_conf_test](images/tl_confusion_test.png)
+|![tl_conf_test](images/tl_confusion_test.png)|
+|:--:|
+| *Матрица ошибок для тестового множества CIFAR-10 + vehicles2* |
 
-Обучающие множество:
+### Метрики для обучающего множества
 
 ```text
 train:
@@ -244,7 +257,9 @@ train:
 weighted avg       0.81      0.81      0.81      6750
 ```
 
-![tl_conf_train](images/tl_confusion_train.png)
+|![tl_conf_train](images/tl_confusion_train.png)|
+|:--:|
+| *Матрица ошибок для обучающего множества CIFAR-10 + vehicles2* |
 
 # 5. Сравнительный анализ результатов сети на CIFAR-10 и дообученной сети на CIFAR-10 и vehicles2
 
